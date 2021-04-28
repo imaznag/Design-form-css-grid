@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  color: #393e46;
+  font-family: "Roboto", sans-serif;
+}
+form {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  grid-template-columns: 50px auto;
+  background-color: #eeeeee;
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px grey;
+}
+form input[type="submit"] {
+  grid-column: 2 / span 1;
+  border: none;
+  background-color: #00adb5;
+  color: #fff;
+  padding: 5px 0;
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px white;
+}
+form input[type="text"] {
+  border: none;
+  background-color: rgb(233, 254, 255);
+  padding: 10px 0;
+  border-radius: 3px;
+  outline: none;
+}
+form input[placeholder] {
+  text-align: center;
+}
+form label {
+  line-height: 35px;
+}
